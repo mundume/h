@@ -90,7 +90,7 @@ h6 {
 /* end of globals */
 /* Navbar */
 .navbar {
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +99,7 @@ h6 {
   width: 100%;
   padding: 0.75rem 2rem;
   background: #ffffff;
-  z-index: 1;
+  
 }
 
 
@@ -107,7 +107,9 @@ h6 {
 
 .nav-header {
   display: flex;
-  justify-content: space-between;
+  justify-self: start;
+  margin-left: 20px;
+  cursor: pointer;
 
 }
 
@@ -145,9 +147,9 @@ h6 {
 }
 
 .show-nav {
-  height: 500px;
+  height: 80px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
   .navbar {
     position: relative;
   }
@@ -176,12 +178,18 @@ h6 {
     z-index: 1;
     
   }
-  .nav-links{
+  .nav-links .show-nav{
     text-align: center;
     padding: 2rem;
     width:100% ;
     display: table;
   }
+    .nav-links .show-nav:hover{
+      background-color: #af9a7d;
+      border-radius: 0;
+
+    }
+  
   .menu-icon{
     display: block;
     position: absolute;

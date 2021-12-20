@@ -90,7 +90,7 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Description: Ultra modern, with 53 sqm of living space, each with private balcony and sea views, you only have to raise your head from the pillow on the super king size bed to gaze out to sea through double size doors, and feel what the day will bring. Laze on private balcony enjoying sea breezes. Glass partitioned en-suite with both bath and shower. Aircon, fan, TV private kitchenette as standard.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -432,7 +432,7 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Description: Ultra modern, with 53 sqm of living space, each with private balcony and sea views, you only have to raise your head from the pillow on the super king size bed to gaze out to sea through double size doors, and feel what the day will bring. Laze on private balcony enjoying sea breezes. Glass partitioned en-suite with both bath and shower. Aircon, fan, TV private kitchenette as standard.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
