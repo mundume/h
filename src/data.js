@@ -23,8 +23,8 @@ export default [
       id: "1"
     },
     fields: {
-      name: "single economy",
-      slug: "single-economy",
+      name: "Double Rooms - Cottages",
+      slug: "Double-Rooms",
       type: "single",
       price: 100,
       size: 200,
@@ -33,7 +33,7 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "The 12 en-suite cottages, loved by couples and pairs of friends wanting privacy but still in close proximity, all boast private patios. All are furnished with four poster beds handmade in Zanzibar from locally sourced palm wood. Options of both sea and garden view are available",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -80,8 +80,8 @@ export default [
       id: "2"
     },
     fields: {
-      name: "single basic",
-      slug: "single-basic",
+      name: "Mahaba Penthouse Suite - Honeymoon",
+      slug: "Mahaba-Penthouse",
       type: "single",
       price: 150,
       size: 250,
@@ -90,8 +90,24 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Description: Ultra modern, with 53 sqm of living space, each with private balcony and sea views, you only have to raise your head from the pillow on the super king size bed to gaze out to sea through double size doors, and feel what the day will bring. Laze on private balcony enjoying sea breezes. Glass partitioned en-suite with both bath and shower. Aircon, fan, TV private kitchenette as standard.",
+        "Your private jacuzzi, 360 degree panoramic views and space to celebrate life, awaits.Mahaba means ‘Romance’ in Swahili. Located on the top floor of our brand new Mahaba House is our best penthouse ever, and designed knowing how much our guests enjoy their private space..",
       extras: [
+        "WiFi",
+        "Private bathroom & Amenities",
+        "Safety deposit box",
+        "Beach View",
+        "Hot/Cold Shower",
+        "Writing Desk & Chair",
+        "Bottled Mineral Water On Arrival",,
+        "Tea/Coffee Station",
+        "Mini Fridge",
+        "Patio/Balcony",
+        "Soft, oversized bath towels",
+        "Full-sized, pH-balanced toiletries",
+        "Complimentary refreshments",
+        "Adequate safety/security",
+        "Internet",
+        "Comfortable beds",
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
@@ -137,8 +153,8 @@ export default [
       id: "3"
     },
     fields: {
-      name: "single standard",
-      slug: "single-standard",
+      name: "Mahaba Suites",
+      slug: "Mahaba-Suites",
       type: "single",
       price: 250,
       size: 300,
@@ -147,7 +163,7 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "Mahaba in Swahili means ‘Romance’, and evokes the perfect feeling for our brand new (opened August 2019) luxury rooms located in Mahaba House. Designed to celebrate the love that is life, freedom of the spirit, togetherness and for creating memories.",
       extras: [
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
@@ -194,8 +210,8 @@ export default [
       id: "4"
     },
     fields: {
-      name: "single deluxe",
-      slug: "single-deluxe",
+      name: "Deluxe Rooms",
+      slug: "Deluxe Rooms",
       type: "single",
       price: 300,
       size: 400,
@@ -251,9 +267,9 @@ export default [
       id: "5"
     },
     fields: {
-      name: "double economy",
-      slug: "double-economy",
-      type: "double",
+      name: "Superior Rooms",
+      slug: "Superior-Rooms",
+      type: "family",
       price: 200,
       size: 300,
       capacity: 2,
@@ -261,15 +277,30 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "At over 63 sqm, our 4 Superior Rooms are perfect for guests who want that extra space and comfort. Ideal for families with smaller children. Arranged over 2 floors, each has a ground floor with sitting area, separate room with twin beds, bathroom and kitchenette with fridge and coffee/tea making facilities. On the first floor mezzanine is a sleeping area with a large, and we mean large, double bed..",
       extras: [
-        "Plush pillows and breathable bed linens",
+        "WiFi",
+        "Private bathroom & Amenities",
+        "Safety deposit box",
+        "Beach View",
+        "Hot/Cold Shower",
+        "Writing Desk & Chair",
+        "Bottled Mineral Water On Arrival",,
+        "Tea/Coffee Station",
+        "Mini Fridge",
+        "Patio/Balcony",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
+        "Plush pillows and breathable bed linens",
+        "Soft, oversized bath towels",
+        "Full-sized, pH-balanced toiletries",
+        "Complimentary refreshments",
+        "Adequate safety/security"
+        
       ],
       images: [
         {
@@ -308,8 +339,8 @@ export default [
       id: "6"
     },
     fields: {
-      name: "double basic",
-      slug: "double-basic",
+      name: "Family House - Fishermans Home",
+      slug: "Family House-Fishermans Home",
       type: "double",
       price: 250,
       size: 350,
@@ -318,15 +349,29 @@ export default [
       breakfast: false,
       featured: false,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        " ishermans House is home to our family accommodation. Presented as a 2 bedroom (98 sqm) with double bed and 1 twin bed, or a 3 bedroom (151 sqm) with double bed and 2 twin beds, self contained apartments. Designed specifically as spacious and comfortable accommodation for guests travelling as large families or groups.The 2 bedroom sleeps 4 and the 3 bedroom apartment sleeps 6 guests. Set in Mnarani’s mature, lush, tropical gardens, the apartments offer privacy, peace and quiet close to nature..",
       extras: [
-        "Plush pillows and breathable bed linens",
+        "WiFi",
+        "Private bathroom & Amenities",
+        "Safety deposit box",
+        "Beach View",
+        "Hot/Cold Shower",
+        "Writing Desk & Chair",
+        "Bottled Mineral Water On Arrival",,
+        "Tea/Coffee Station",
+        "Mini Fridge",
+        "Patio/Balcony",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
         "Adequate safety/security",
         "Internet",
-        "Comfortable beds"
+        "Comfortable beds",
+        "Plush pillows and breathable bed linens",
+        "Soft, oversized bath towels",
+        "Full-sized, pH-balanced toiletries",
+        "Complimentary refreshments",
+        "Adequate safety/security"
       ],
       images: [
         {
@@ -365,8 +410,8 @@ export default [
       id: "7"
     },
     fields: {
-      name: "double standard",
-      slug: "double-standard",
+      name: "Penthouse Suites",
+      slug: "Penthouse-Suites",
       type: "double",
       price: 300,
       size: 400,
@@ -374,10 +419,18 @@ export default [
       pets: true,
       breakfast: false,
       featured: false,
-      description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+      description: "The only rooms in Zanzibar where guests can see both sunrise and sunset! Views, privacy and romance at its best.2 Penthouse suites, ‘Sunrise’ & ‘Sunset’, each with 44 sqm of space and WiFi availability, are designed with extra privacy in mind and ideal for honeymooners. Bedrooms open onto balconies with breathtaking views.Watch traditional dhows sailing past in the stunning turquoise and azure waters of the Indian Ocean from your hammock",
       extras: [
-        "Plush pillows and breathable bed linens",
+        "WiFi",
+        "Private bathroom & Amenities",
+        "Safety deposit box",
+        "Beach View",
+        "Hot/Cold Shower",
+        "Writing Desk & Chair",
+        "Bottled Mineral Water On Arrival",,
+        "Tea/Coffee Station",
+        "Mini Fridge",
+        "Patio/Balcony",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
         "Complimentary refreshments",
@@ -422,8 +475,8 @@ export default [
       id: "8"
     },
     fields: {
-      name: "Family - Fisherman's House",
-      slug: "double-deluxe",
+      name: "Family-Fisherman's House",
+      slug: "Family-Fisherman's House",
       type: "double",
       price: 400,
       size: 500,
@@ -660,14 +713,21 @@ export default [
       breakfast: true,
       featured: true,
       description:
-        "Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.",
+        "With 44 sqm of space, each of the 10 deluxe en-suite rooms easily and comfortably sleeps up to 3 adults, set up with a large double bed plus a single on request. With 44 sqm of space, each of the 10 deluxe en-suite rooms easily and comfortably sleeps up to 3 adults, set up with a large double bed plus a single on request. All rooms open onto their own, private, large wooden verandah or balcony where you can enjoy the sunrise in the morning, relaxation in the afternoon, and starry skies at night.",
       extras: [
+        "WiFi",
+        "Private bathroom",
+        "Beach View",
+        "Hot/Cold Shower",
+        "Writing Desk & Chair",
+        "Bottled Mineral Water On Arrival",
+        "Tea/Coffee Station",
+       " Mini Fridge",
+       " Patio/Balcony",
         "Plush pillows and breathable bed linens",
         "Soft, oversized bath towels",
         "Full-sized, pH-balanced toiletries",
-        "Complimentary refreshments",
         "Adequate safety/security",
-        "Internet",
         "Comfortable beds"
       ],
       images: [
