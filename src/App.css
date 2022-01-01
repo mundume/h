@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-* {
+*  {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -21,7 +21,7 @@ body {
   padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Poppins, Geneva, Tahoma, sans-serif;
+  font-family: Poppins,sans-serif;
   line-height: 1.4;
 }
 h1 {
@@ -90,133 +90,83 @@ h6 {
 /* end of globals */
 /* Navbar */
 .navbar {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   padding: 0.75rem 2rem;
-  background: #ffffff;
-  
+  background: var(--offWhite);
+  z-index: 1;
 }
-
-
-
-
 .nav-header {
   display: flex;
-  justify-self: start;
-  margin-left: 20px;
-  cursor: pointer;
-
+  justify-content: space-between;
 }
-
-
-
+.nav-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.nav-icon {
+  font-size: 1.5rem;
+  color: var(--primaryColor);
+}
 .nav-links {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap:10px;
-  text-align: center;
-  width: 70vw;
-  justify-content: end;
-  margin-right: 2rem;
-  list-style: none;
-  font-weight: bold;
+  height: 0;
+  overflow: hidden;
+  transition: var(--mainTransition);
+  list-style-type: none;
 }
 .nav-links a {
+  display: inline-flex;
   text-decoration: none;
-    padding: 0.5rem 1rem;
-     color: var(--primaryColor);
-     font-weight: bold;
-  }
+  padding: 1rem 0;
+  color: var(--primaryColor);
+  transition: var(--mainTransition);
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: var(--mainSpacing);
+}
 .nav-links a:hover {
-  color:var(--primaryColor);
-  border-radius:10px ;
-  transition: all 0.2s ease-out;
-}
-
-.fa-bars{
-  color: #af9a7d;
-  
-}
-.menu-icon{
-  display: none;
+  color: var(--primaryColor);
 }
 
 .show-nav {
-  height: 80px;
+  height: 500px;
 }
-@media screen and (max-width: 960px) {
-  .navbar {
-    position: relative;
+@media screen and (min-width: 768px) {
+  .nav-btn {
+    display: inline-block;
   }
-  
+  .nav-center {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+  }
   .nav-links {
     height: auto;
     display: flex;
     margin-left: 4rem;
   }
   .nav-links a {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height:500px ;
-    position: absolute;
-    top: 80px;
-    left: -100%;
-    opacity: 1;
-    transition: all 0.5s ease;
-  }
-  .nav.links a.active{
-    background: var(--primaryColor);
-    left:0;
-    opacity: 1;
-    transition: all 0.5s ease; 
-    z-index: 1;
-    
-  }
-  .nav-links .show-nav{
-    text-align: center;
-    padding: 2rem;
-    width:100% ;
-    display: table;
-  }
-    .nav-links .show-nav:hover{
-      background-color: #af9a7d;
-      border-radius: 0;
-
-    }
-  
-  .menu-icon{
-    display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translate(-100%,60%);
-    font-size: 1rem;
-    cursor:pointer;
-
-
-
-
+    margin: 0 1rem;
+    padding: 0.5rem 0;
   }
 }
-
 /* end of navbar */
 /* Hero */
 .defaultHero,
 .roomsHero {
-  min-height: calc(0vh - 66px);
-  background: url("./images/mnarani.jpg") center/cover no-repeat;
+  min-height: calc(100vh - 66px);
+  background: url("./images/defaultBcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .roomsHero {
-  background-image: url("./images/nungwi.jpg");
+  background-image: url("./images/room-2.jpeg");
   min-height: 60vh;
 }
 /* End of Hero */
@@ -303,7 +253,6 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
-  text-transform: uppercase;
 }
 .services p {
   width: 80%;
