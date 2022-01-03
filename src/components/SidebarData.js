@@ -1,47 +1,40 @@
-import React from 'react'
-import *as FaIcons from "react-icons/fa"
-import *as AiIcons from "react-icons/ai"
-import *as IoIcons from "react-icons/io"
-import *as MdIcons from "react-icons/md"
-import *as FcIcons from "react-icons/fc"
+
 
 export const SidebarData = [
     {
       title:'Home',
       path: '/',
-      icon: <AiIcons.AiFillHome/>,
-      cName:'nav-text'
+    
+      cName:'nav-links'
     },
 
     {
         title:'Rooms',
         path: '/rooms',
-        icon: <MdIcons.MdOutlineRoomService/>,
-        cName:'nav-text'
+        
+        cName:'nav-links'
       },
       {
         title:'Facilities',
         path: '/facilities',
-        icon: <FaIcons.FaClipboardCheck/>,
-        cName:'nav-text'
+        
+        cName:'nav-links'
       },
      
       {
         title:'Activities',
         path: '/activities',
-        icon: <MdIcons.MdLocalActivity/>,
-        cName:'nav-text'
+        
+        cName:'nav-links'
       },
       {
         title:'About',
         path: '/about',
-        icon: <FaIcons.FaCloudsmith/>,
-        cName:'nav-text'
+        cName:'nav-links'
       },
       {
         title:'Gallery',
         path: '/gallery',
-        icon: <MdIcons.MdAddToPhotos/>,
-        cName:'nav-text'
+        cName:'nav-links'
       },
 ]

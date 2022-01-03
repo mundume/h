@@ -1,51 +1,37 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from "react-router-dom";
-import *as FaIcons from "react-icons/fa"
-import *as AiIcons from "react-icons/ai"
-import {SidebarData} from './SidebarData'
+import React, { Component } from 'react';
+import { SidebarData } from "./SidebarData"
+
 import './Navbar.css'
-import {IconContext} from 'react-icons'
 
+class Navbar extends Component {
+    state = { clicked: false }
 
-function Navbar() {
-  const[sidebar, setSidebar] = useState(false);
+    handleClick = () => {
+        this.setState({ clicked: !this.state.clicked })
+    }
 
-  const showSidebar =() => setSidebar(!sidebar); 
-
-  return (
-   <>
-   <IconContext.Provider value={{color:'#af9a7d'}}>
-   <div className='navbar'>
-   <Link to="#" className='menu-bars'>
-     <FaIcons.FaBars onClick={showSidebar} />
-   </Link>
-   </div>
-
-   <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}onClick={setSidebar}>
-     <ul className='nav-menu items'>
-       <li className='navbar-toggle'>
-        <Link to="#" className='menu-bars'>
-           <AiIcons.AiOutlineClose/> 
-         </Link>
-
-       </li>
-         {SidebarData.map((item, index)=>{
-           return(
-             <li key={index} className={item.cName}>
-               <Link to ={item.path}>{item.icon}
-               <span>{item.title}</span> </Link>
-             </li>
-           )
-         })}
-     </ul>
-
-   </nav>
-   </IconContext.Provider>
-   </>
-  )
+    render() {
+        return(
+            <nav className="NavbarItems">
+                <h1 className="navbar-logo"><i className="fab fa-react"></i></h1>
+                <div className="menu-icon" onClick={this.handleClick}>
+                    <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
+                </div>
+                <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
+                    {SidebarData.map((item, index) => {
+                        return (
+                            <li key={index}>
+                                <a className={item.cName} href={item.url}>
+                                {item.title}
+                                </a>
+                            </li>
+                        )
+                    })}
+                </ul>
+                
+            </nav>
+        )
+    }
 }
 
 export default Navbar
-
-
-            
