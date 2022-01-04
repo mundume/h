@@ -2,7 +2,7 @@ import React from 'react'
 import { useContext } from 'react'
 import { RoomContext } from '../context'
 import Title from "../components/Title"
-export default function RoomFilter() {
+export default function RoomFilter(rooms) {
     const context = useContext(RoomContext)
     const {
         handleChange,type,capacity,price,minPrice,maxPrice,minSize,maxSize,breakfast,pets
@@ -10,16 +10,19 @@ export default function RoomFilter() {
     return (
         <section className='filter-container'>
            <Title title='Search Rooms'/>
-           <form className='filter-form'>
+           <form className="filter-form">
                
                <div className='form-group'>
-                   <label htmlFor='type' className='form-group'>room type</label>
+                   <label htmlFor='type'>room type</label>
                    <select
                     name='type' 
                     id='type' 
                     value={type} 
-                    className='form-control'
-                     onChange={handleChange}/>
+                    className="form-control"
+                     onChange={handleChange}> 
+                     
+                     
+                     </select>
 
                 </div>
                 

@@ -398,6 +398,7 @@ h6 {
 /*  rooms fitler*/
 .filter-container {
   padding: 5rem 0;
+  
 }
 .filter-form {
   width: 60vw;
@@ -406,15 +407,20 @@ h6 {
   grid-template-columns: repeat(auto-fit, minmax(202px, 1fr));
   grid-row-gap: 2rem;
   grid-column-gap: 40px;
+ 
+  
 }
 .form-group {
   text-transform: capitalize;
+  
 }
 .form-group label {
   display: block;
   letter-spacing: var(--mainSpacing);
   margin-bottom: 0.5rem;
+  
 }
+
 .form-control {
   width: 100%;
   background: transparent;
